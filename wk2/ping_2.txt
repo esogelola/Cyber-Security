@@ -1,0 +1,12 @@
+λ ping 68.183.199.229
+
+Pinging 68.183.199.229 with 32 bytes of data:
+Reply from 68.183.199.229: bytes=32 time=21ms TTL=55
+Reply from 68.183.199.229: bytes=32 time=31ms TTL=55
+Reply from 68.183.199.229: bytes=32 time=17ms TTL=55
+Reply from 68.183.199.229: bytes=32 time=18ms TTL=55
+
+Ping statistics for 68.183.199.229:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 17ms, Maximum = 31ms, Average = 21ms
