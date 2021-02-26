@@ -1,0 +1,16 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -A -i eth0 -c 5
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+00:22:22.107323 IP 68.183.199.229.ssh > cpe1033bf98282f-cm1033bf98282d.cpe.net.cable.rogers.com.64848: Flags [P.], seq 4170978551:4170978659, ack 3573995857, win 501, length 108
+E...d.@.@..1D...c......P.......QP.........?.pj)........EzU..I..-.\..="...@.....m?>.mNH...N.>.n....j.0e..!L..@......V8)...jp..v..y.m...i0s.bF.....KnH
+00:22:22.107425 IP 68.183.199.229.ssh > cpe1033bf98282f-cm1033bf98282d.cpe.net.cable.rogers.com.64848: Flags [P.], seq 108:144, ack 1, win 501, length 36
+E..Ld.@.@..xD...c......P...c...QP....t....U.?=,xW...K....P..{/bK.......`.A.<
+00:22:22.107530 IP 68.183.199.229.ssh > cpe1033bf98282f-cm1033bf98282d.cpe.net.cable.rogers.com.64848: Flags [P.], seq 144:252, ack 1, win 501, length 108
+E...d.@.@../D...c......P.......QP.......!..!....$%.v...~...;,....J@..mp...*T...K......".......P2f.k*.;.z.%...K.Cl..I.tU..EfQ5..R        H..2a|.../....Zu.h.
+00:22:22.107613 IP 68.183.199.229.ssh > cpe1033bf98282f-cm1033bf98282d.cpe.net.cable.rogers.com.64848: Flags [P.], seq 252:288, ack 1, win 501, length 36
+E..Ld.@.@..vD...c......P.......QP....t..`......W.|....Q......-.|.5.P...3HS..
+00:22:22.108466 IP 68.183.199.229.53863 > dns.google.domain: 22691+ PTR? 174.155.234.99.in-addr.arpa. (45)
+E..Ip(@.@...D........g.5.5..X............174.155.234.99.in-addr.arpa.....
+5 packets captured
+20 packets received by filter
+0 packets dropped by kernel

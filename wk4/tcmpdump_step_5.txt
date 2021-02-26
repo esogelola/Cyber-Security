@@ -1,0 +1,50 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -XX -i eth0 -c 5
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+00:23:30.959846 IP 68.183.199.229.ssh > cpe1033bf98282f-cm1033bf98282d.cpe.net.cable.rogers.com.64848: Flags [P.], seq 4172255691:4172255799, ack 3573998665, win 501, length 108
+        0x0000:  fe00 0000 0101 da1e 59bf d038 0800 4510  ........Y..8..E.
+        0x0010:  0094 6ea6 4000 4006 bf78 44b7 c7e5 63ea  ..n.@.@..xD...c.
+        0x0020:  9bae 0016 fd50 f8af 91cb d506 e449 5018  .....P.......IP.
+        0x0030:  01f5 0cbc 0000 9078 3dee aec3 0e82 6b94  .......x=.....k.
+        0x0040:  2e25 2da4 7b61 f0ba 13db ab6b 99f2 fdaf  .%-.{a.....k....
+        0x0050:  8d84 7147 83cf d291 b608 4779 ef54 cb2e  ..qG......Gy.T..
+        0x0060:  e3eb 1f81 4d5d 91a0 f980 72f1 30c8 faa7  ....M]....r.0...
+        0x0070:  bc77 cc49 5197 a96e 1c64 de3f 88a7 b96a  .w.IQ..n.d.?...j
+        0x0080:  7ce4 12b2 8b8d 11db 6349 de73 100b 67ee  |.......cI.s..g.
+        0x0090:  5ce3 8124 b435 f747 1116 af6e 3e69 3fa5  \..$.5.G...n>i?.
+        0x00a0:  963d                                     .=
+00:23:30.959973 IP 68.183.199.229.ssh > cpe1033bf98282f-cm1033bf98282d.cpe.net.cable.rogers.com.64848: Flags [P.], seq 108:144, ack 1, win 501, length 36
+        0x0000:  fe00 0000 0101 da1e 59bf d038 0800 4510  ........Y..8..E.
+        0x0010:  004c 6ea7 4000 4006 bfbf 44b7 c7e5 63ea  .Ln.@.@...D...c.
+        0x0020:  9bae 0016 fd50 f8af 9237 d506 e449 5018  .....P...7...IP.
+        0x0030:  01f5 0c74 0000 dfd6 351e 9385 d24e 4758  ...t....5....NGX
+        0x0040:  3684 2953 5b6f 2fba 283e b096 c792 b35c  6.)S[o/.(>.....\
+        0x0050:  d387 2b28 27ad 196c 92a9                 ..+('..l..
+00:23:30.960091 IP 68.183.199.229.ssh > cpe1033bf98282f-cm1033bf98282d.cpe.net.cable.rogers.com.64848: Flags [P.], seq 144:252, ack 1, win 501, length 108
+        0x0000:  fe00 0000 0101 da1e 59bf d038 0800 4510  ........Y..8..E.
+        0x0010:  0094 6ea8 4000 4006 bf76 44b7 c7e5 63ea  ..n.@.@..vD...c.
+        0x0020:  9bae 0016 fd50 f8af 925b d506 e449 5018  .....P...[...IP.
+        0x0030:  01f5 0cbc 0000 5015 c097 2313 a8f5 27a7  ......P...#...'.
+        0x0040:  cae0 3a91 b235 7a86 2c0b ecba 97ba 91ec  ..:..5z.,.......
+        0x0050:  fbf3 2534 4eb5 328d 0f90 4638 2a11 2f06  ..%4N.2...F8*./.
+        0x0060:  256d cd72 0692 2c59 e7a2 1623 8d6e ce65  %m.r..,Y...#.n.e
+        0x0070:  041b 6f9d f6a5 c4e8 4e68 05b4 d9bd b148  ..o.....Nh.....H
+        0x0080:  516d f85a 7cc2 f99b 7759 60da 49f7 4d97  Qm.Z|...wY`.I.M.
+        0x0090:  6342 f59f aecf c61d 6bd2 f727 a35b 43f7  cB......k..'.[C.
+        0x00a0:  b982                                     ..
+00:23:30.960185 IP 68.183.199.229.ssh > cpe1033bf98282f-cm1033bf98282d.cpe.net.cable.rogers.com.64848: Flags [P.], seq 252:288, ack 1, win 501, length 36
+        0x0000:  fe00 0000 0101 da1e 59bf d038 0800 4510  ........Y..8..E.
+        0x0010:  004c 6ea9 4000 4006 bfbd 44b7 c7e5 63ea  .Ln.@.@...D...c.
+        0x0020:  9bae 0016 fd50 f8af 92c7 d506 e449 5018  .....P.......IP.
+        0x0030:  01f5 0c74 0000 b841 a9ad 0db7 93a6 d440  ...t...A.......@
+        0x0040:  b7c6 cd8c 5ab9 a883 ba98 4a68 f0c4 6b03  ....Z.....Jh..k.
+        0x0050:  df9b abb3 a7d8 6094 9aa7                 ......`...
+00:23:30.960985 IP 68.183.199.229.54403 > dns.google.domain: 30166+ PTR? 174.155.234.99.in-addr.arpa. (45)
+        0x0000:  fe00 0000 0101 da1e 59bf d038 0800 4500  ........Y..8..E.
+        0x0010:  0049 9f3f 4000 4011 7eb8 44b7 c7e5 0808  .I.?@.@.~.D.....
+        0x0020:  0808 d483 0035 0035 1cf3 75d6 0100 0001  .....5.5..u.....
+        0x0030:  0000 0000 0000 0331 3734 0331 3535 0332  .......174.155.2
+        0x0040:  3334 0239 3907 696e 2d61 6464 7204 6172  34.99.in-addr.ar
+        0x0050:  7061 0000 0c00 01                        pa.....
+5 packets captured
+22 packets received by filter
